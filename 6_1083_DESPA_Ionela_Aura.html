@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Editor SVG Despa Ionela</title>
+    <link rel="stylesheet" type="text/css" href="6_1083_DESPA_Ionela_Aura.css" />
+    <script type="text/javascript" src="6_1083_DESPA_Ionela_Aura.js"></script>
+</head>
+<body>
+    <h1>Editor SVG</h1>
+
+    <input class="menu" type="button" id="btnRect" value="Dreptunghi" />
+    <input class="menu" type="button" id="btnEllipse" value="Elipsa" />
+    <input class="menu" type="button" id="btnLine" value="Linie" />
+
+    <label>Selectati culoare linie</label>
+    <input type="color" id="inputCuloareLinieInitiala" /><br />
+
+    <label>Introduceti grosime linie</label>
+    <input type="text" id="inputGrosimeLinieInitiala" /><br />
+
+    <h2>Sectiunea de modificari</h2>
+
+    <label>Culoare fundal modificat</label>
+    <input type="color" id="inputCuloare" /><br />
+
+    <label>Culoare linie modificata</label>
+    <input type="color" id="inputCuloareLinie" /><br />
+
+    <label>Grosime linie modificata</label>
+    <input type="text" id="inputGrosimeLinie" />
+
+    <input type="button" id="btnModifica" value="Modifica element" />
+
+    <input type="button" id="btnStergere" value="Sterge element" />
+
+    <input type="button" id="btnSalveaza" value="Salveaza svg" />
+
+
+    <svg id="editor">
+        <svg id="elementeDesen">
+
+        </svg>
+
+        <rect id="selectieDreptunghi" x="50" y="50" width="100" height="120"
+              style="display: none;"></rect>
+        <ellipse id="selectieElipsa" cx="10" cy="10" rx="40" ry="45"
+                 style="display: none;"></ellipse>
+        <line id="selectieLinie" x1="10" y1="20" x2="30" y2="40"
+              style="display: none;"></line>
+    </svg>
+</body>
+</html>

@@ -1,0 +1,155 @@
+﻿
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Dejavu Sans';
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 4px;
+    background-color: #FFFFF0;
+    cursor: crosshair;
+}
+
+
+svg #selectieDreptunghi{
+    fill:transparent;
+    stroke:brown;
+    stroke-width:2;
+    stroke-dasharray:4;
+}
+
+svg #selectieElipsa {
+     fill: transparent;
+     stroke: brown;
+     stroke-width: 2;
+     stroke-dasharray: 4;
+}
+
+svg #selectieLinie {
+     fill: transparent;
+     stroke: brown;
+     stroke-width: 2;
+     stroke-dasharray: 4;
+ }
+
+
+h1 {
+    background-color: #BC8F8F;
+    padding: 8px;
+    margin: 0px;
+}
+
+h2 {
+    background-color: #D8BFD8;
+    padding: 8px;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+
+
+.menu {
+    background-color: #FFE4C4;
+    height: 30px;
+    width: 120px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#btnRect {
+    margin: 15px;
+    transition-duration: 0.4s;
+}
+
+#btnEllipse {
+    margin: 15px;
+    transition-duration: 0.4s;
+}
+
+#btnLine {
+    margin: 15px;
+    transition-duration: 0.4s;
+}
+
+#btnRect:hover {
+    background-color: #DAA520;
+}
+
+#btnEllipse:hover {
+    background-color: #DAA520;
+}
+
+#btnLine:hover {
+    background-color: #DAA520;
+}
+
+label {
+    margin-left: 5px;
+    font-weight: bold;
+}
+input {
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+#btnModifica, #btnSalveaza{
+    background-color: #FFE4C4;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+    margin-right: 8px;
+    margin-left: 15px;
+}
+
+#btnModifica:hover {
+     background-color: #DAA520;
+}
+
+#btnSalveaza:hover {
+     background-color: #DAA520;
+}
+
+#inputCuloareLinie {
+    margin-left: 7px;
+}
+
+#inputGrosimeLinie{
+    margin-left:3px;
+    margin-right:10px;
+    width:40px;
+    height:15px;
+}
+
+#inputGrosimeLinieInitiala{
+    width:40px;
+    height:15px;
+
+}
+
+#inputCuloareLinieInitiala{
+    margin:5px;
+}
+
+#btnStergere:hover {
+    background-color: #DAA520;
+}
+
+#btnStergere {
+    background-color: #FFE4C4;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+    margin-right: 8px;
+    margin-left: 15px;
+}
